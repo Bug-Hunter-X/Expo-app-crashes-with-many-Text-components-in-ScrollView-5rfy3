@@ -1,0 +1,1 @@
+This repository demonstrates a bug in an Expo React Native application where rendering a large number of Text components inside a ScrollView can lead to crashes or unresponsiveness.  The issue is particularly noticeable on devices with lower processing power. The bug.js file contains the problematic code, and bugSolution.js offers a solution using React.memo and Virtualization.
